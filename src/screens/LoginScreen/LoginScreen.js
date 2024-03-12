@@ -9,6 +9,7 @@ import facebookLogo from '../../assets/images/facebookLogo.png'
 import twitterLogo from '../../assets/images/twitterLogo.png'
 import googleLogo from '../../assets/images/googleLogo.png'
 import CustomLogin from '../../components/CustomLogin'
+import styles from './styles'
 
 const LoginScreen = () =>
 {
@@ -23,9 +24,7 @@ const LoginScreen = () =>
     }
 
     const onLogin = (socialNetwork) => {
-        // Xử lý đăng nhập với social network được chọn
         console.log(`Login with ${socialNetwork}`);
-        // Thực hiện các thao tác đăng nhập với social network cụ thể
       };
 
     return (
@@ -54,52 +53,6 @@ const LoginScreen = () =>
             </View>
         </View>
     )
-}
-
-const styles = StyleSheet.create({
-    root: {
-        alignItems: 'center',
-        padding: 60,
-    },
-    logo: {
-        width: 140,
-        maxWidth: 300,
-        maxHeight: 200,
-    },
-    container: {
-        width: '100%',
-        borderColor: '#ccc',
-        borderWidth: 1,
-        borderRadius: 5,
-        marginVertical: 30,
-    },
-    divider: {
-        height: 1,
-        backgroundColor: '#ccc',
-        margin: 10,
-    },
-    line: {
-        height: 1,
-        backgroundColor: '#ccc',
-        margin: 10,
-        width: 100,
-    },
-    orContainer: {
-        marginVertical: 80,
-        flexDirection: 'row',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: 50, 
-    },
-    orText: {
-        color: '#ccc', 
-        fontSize: 16,  
-    },
-    loginSocialMedia: {
-        paddingTop: 50,
-        flex: 1,
-        flexDirection: 'row',
-    },
-});
+};
 
 export default LoginScreen
