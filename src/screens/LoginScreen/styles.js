@@ -4,6 +4,7 @@ const styles = StyleSheet.create({
     root: {
         alignItems: 'center',
         padding: 60,
+        paddingTop: 110,
     },
     logo: {
         width: 140,

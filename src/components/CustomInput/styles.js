@@ -3,10 +3,10 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     inputContainer: {
       flexDirection: 'row',
-      justifyContent: 'flex-start',
+      justifyContent: 'flex',
       width: '90%',
       paddingHorizontal: 10,
-      marginVertical: 8,
+      marginVertical: 10,
     },
     inputText: {
       width: '48%',
@@ -20,4 +20,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default styles
+export default styles;

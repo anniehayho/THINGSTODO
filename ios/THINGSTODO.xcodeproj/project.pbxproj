@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* THINGSTODOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* THINGSTODOTests.m */; };
+		0149B2763BF0B1A743F54322 /* libPods-THINGSTODO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C43C2F2D1084137150E071 /* libPods-THINGSTODO.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		42F04ABA9A159304A0DF1746 /* libPods-THINGSTODO-THINGSTODOTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A3D9D86D55FED4672A41E7 /* libPods-THINGSTODO-THINGSTODOTests.a */; };
+		69EBF05588F87AC9DA21D438 /* libPods-THINGSTODO-THINGSTODOTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FF460DDABC3C46963390FF /* libPods-THINGSTODO-THINGSTODOTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		BFB923D76CCAA18113661C3A /* libPods-THINGSTODO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C5A1E35AAD91447FC0AE95 /* libPods-THINGSTODO.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +36,13 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = THINGSTODO/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = THINGSTODO/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = THINGSTODO/main.m; sourceTree = "<group>"; };
-		3913410655795F3EFB995A9F /* Pods-THINGSTODO-THINGSTODOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THINGSTODO-THINGSTODOTests.debug.xcconfig"; path = "Target Support Files/Pods-THINGSTODO-THINGSTODOTests/Pods-THINGSTODO-THINGSTODOTests.debug.xcconfig"; sourceTree = "<group>"; };
-		43A3D9D86D55FED4672A41E7 /* libPods-THINGSTODO-THINGSTODOTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-THINGSTODO-THINGSTODOTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		64C5A1E35AAD91447FC0AE95 /* libPods-THINGSTODO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-THINGSTODO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7329168F1219BA9C2D4B12D5 /* Pods-THINGSTODO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THINGSTODO.release.xcconfig"; path = "Target Support Files/Pods-THINGSTODO/Pods-THINGSTODO.release.xcconfig"; sourceTree = "<group>"; };
+		3814B8213D3814C696313AC8 /* Pods-THINGSTODO-THINGSTODOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THINGSTODO-THINGSTODOTests.release.xcconfig"; path = "Target Support Files/Pods-THINGSTODO-THINGSTODOTests/Pods-THINGSTODO-THINGSTODOTests.release.xcconfig"; sourceTree = "<group>"; };
+		43FF460DDABC3C46963390FF /* libPods-THINGSTODO-THINGSTODOTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-THINGSTODO-THINGSTODOTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D41E5B76EAC54B84A4CF879 /* Pods-THINGSTODO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THINGSTODO.debug.xcconfig"; path = "Target Support Files/Pods-THINGSTODO/Pods-THINGSTODO.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = THINGSTODO/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9B95F73141DB6594835C66D9 /* Pods-THINGSTODO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THINGSTODO.debug.xcconfig"; path = "Target Support Files/Pods-THINGSTODO/Pods-THINGSTODO.debug.xcconfig"; sourceTree = "<group>"; };
-		AD0811AE0267E7C19BE21FE8 /* Pods-THINGSTODO-THINGSTODOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THINGSTODO-THINGSTODOTests.release.xcconfig"; path = "Target Support Files/Pods-THINGSTODO-THINGSTODOTests/Pods-THINGSTODO-THINGSTODOTests.release.xcconfig"; sourceTree = "<group>"; };
+		C56546E782D658186ACA37A9 /* Pods-THINGSTODO-THINGSTODOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THINGSTODO-THINGSTODOTests.debug.xcconfig"; path = "Target Support Files/Pods-THINGSTODO-THINGSTODOTests/Pods-THINGSTODO-THINGSTODOTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5C43C2F2D1084137150E071 /* libPods-THINGSTODO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-THINGSTODO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E69C46C154AA2D134141D044 /* Pods-THINGSTODO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THINGSTODO.release.xcconfig"; path = "Target Support Files/Pods-THINGSTODO/Pods-THINGSTODO.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42F04ABA9A159304A0DF1746 /* libPods-THINGSTODO-THINGSTODOTests.a in Frameworks */,
+				69EBF05588F87AC9DA21D438 /* libPods-THINGSTODO-THINGSTODOTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB923D76CCAA18113661C3A /* libPods-THINGSTODO.a in Frameworks */,
+				0149B2763BF0B1A743F54322 /* libPods-THINGSTODO.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				64C5A1E35AAD91447FC0AE95 /* libPods-THINGSTODO.a */,
-				43A3D9D86D55FED4672A41E7 /* libPods-THINGSTODO-THINGSTODOTests.a */,
+				E5C43C2F2D1084137150E071 /* libPods-THINGSTODO.a */,
+				43FF460DDABC3C46963390FF /* libPods-THINGSTODO-THINGSTODOTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9B95F73141DB6594835C66D9 /* Pods-THINGSTODO.debug.xcconfig */,
-				7329168F1219BA9C2D4B12D5 /* Pods-THINGSTODO.release.xcconfig */,
-				3913410655795F3EFB995A9F /* Pods-THINGSTODO-THINGSTODOTests.debug.xcconfig */,
-				AD0811AE0267E7C19BE21FE8 /* Pods-THINGSTODO-THINGSTODOTests.release.xcconfig */,
+				7D41E5B76EAC54B84A4CF879 /* Pods-THINGSTODO.debug.xcconfig */,
+				E69C46C154AA2D134141D044 /* Pods-THINGSTODO.release.xcconfig */,
+				C56546E782D658186ACA37A9 /* Pods-THINGSTODO-THINGSTODOTests.debug.xcconfig */,
+				3814B8213D3814C696313AC8 /* Pods-THINGSTODO-THINGSTODOTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "THINGSTODOTests" */;
 			buildPhases = (
-				A569854CD05DB266FEC42E69 /* [CP] Check Pods Manifest.lock */,
+				668FBC3C79ABEB1F18EA8E0E /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				CD62DDC6CE20B3BF478E7B3D /* [CP] Embed Pods Frameworks */,
-				4011F7FDAE72D82D01F631A0 /* [CP] Copy Pods Resources */,
+				4C7F78B0EBBC78AEA9B37D8B /* [CP] Embed Pods Frameworks */,
+				F58AF228985EF013D2760C27 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,13 +176,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "THINGSTODO" */;
 			buildPhases = (
-				A2D84AB24670F3DA5E53AA93 /* [CP] Check Pods Manifest.lock */,
+				77F846F8F9D736693EB4F9EB /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				9EF237744CC7D5A0E20B7089 /* [CP] Embed Pods Frameworks */,
-				F45E7310D2C3BA01DB84DD76 /* [CP] Copy Pods Resources */,
+				255FB820DFEB178E10BB8CD3 /* [CP] Embed Pods Frameworks */,
+				498A98FAE093EF8D80C466E7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,24 +265,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		4011F7FDAE72D82D01F631A0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-THINGSTODO-THINGSTODOTests/Pods-THINGSTODO-THINGSTODOTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-THINGSTODO-THINGSTODOTests/Pods-THINGSTODO-THINGSTODOTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-THINGSTODO-THINGSTODOTests/Pods-THINGSTODO-THINGSTODOTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9EF237744CC7D5A0E20B7089 /* [CP] Embed Pods Frameworks */ = {
+		255FB820DFEB178E10BB8CD3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -299,29 +282,41 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-THINGSTODO/Pods-THINGSTODO-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A2D84AB24670F3DA5E53AA93 /* [CP] Check Pods Manifest.lock */ = {
+		498A98FAE093EF8D80C466E7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-THINGSTODO/Pods-THINGSTODO-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-THINGSTODO-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-THINGSTODO/Pods-THINGSTODO-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-THINGSTODO/Pods-THINGSTODO-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A569854CD05DB266FEC42E69 /* [CP] Check Pods Manifest.lock */ = {
+		4C7F78B0EBBC78AEA9B37D8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-THINGSTODO-THINGSTODOTests/Pods-THINGSTODO-THINGSTODOTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-THINGSTODO-THINGSTODOTests/Pods-THINGSTODO-THINGSTODOTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-THINGSTODO-THINGSTODOTests/Pods-THINGSTODO-THINGSTODOTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		668FBC3C79ABEB1F18EA8E0E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -343,38 +338,43 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CD62DDC6CE20B3BF478E7B3D /* [CP] Embed Pods Frameworks */ = {
+		77F846F8F9D736693EB4F9EB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-THINGSTODO-THINGSTODOTests/Pods-THINGSTODO-THINGSTODOTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-THINGSTODO-THINGSTODOTests/Pods-THINGSTODO-THINGSTODOTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-THINGSTODO-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-THINGSTODO-THINGSTODOTests/Pods-THINGSTODO-THINGSTODOTests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F45E7310D2C3BA01DB84DD76 /* [CP] Copy Pods Resources */ = {
+		F58AF228985EF013D2760C27 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-THINGSTODO/Pods-THINGSTODO-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-THINGSTODO-THINGSTODOTests/Pods-THINGSTODO-THINGSTODOTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-THINGSTODO/Pods-THINGSTODO-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-THINGSTODO-THINGSTODOTests/Pods-THINGSTODO-THINGSTODOTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-THINGSTODO/Pods-THINGSTODO-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-THINGSTODO-THINGSTODOTests/Pods-THINGSTODO-THINGSTODOTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -410,7 +410,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3913410655795F3EFB995A9F /* Pods-THINGSTODO-THINGSTODOTests.debug.xcconfig */;
+			baseConfigurationReference = C56546E782D658186ACA37A9 /* Pods-THINGSTODO-THINGSTODOTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -437,7 +437,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD0811AE0267E7C19BE21FE8 /* Pods-THINGSTODO-THINGSTODOTests.release.xcconfig */;
+			baseConfigurationReference = 3814B8213D3814C696313AC8 /* Pods-THINGSTODO-THINGSTODOTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -461,7 +461,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B95F73141DB6594835C66D9 /* Pods-THINGSTODO.debug.xcconfig */;
+			baseConfigurationReference = 7D41E5B76EAC54B84A4CF879 /* Pods-THINGSTODO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -489,7 +489,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7329168F1219BA9C2D4B12D5 /* Pods-THINGSTODO.release.xcconfig */;
+			baseConfigurationReference = E69C46C154AA2D134141D044 /* Pods-THINGSTODO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
